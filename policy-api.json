@@ -1,7 +1,7 @@
 {
     "policy": {
-        "name": "policy-api-arcadia",
-        "description": "Arcadia API",
+        "name": "policy-api",
+        "description": "Hackazon API",
         "template": {
             "name": "POLICY_TEMPLATE_API_SECURITY"
         },
