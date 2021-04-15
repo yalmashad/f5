@@ -1,0 +1,32 @@
+openapi: 3.0.1
+info:
+  title: 'Primitive data types'
+  description: 'Primitive data types.'
+  version: '2.5.0'
+servers:
+  - url: http://localhost
+paths:
+  /query:
+    get:
+      tags:
+        - query_int_str
+      description: query_int_str
+      operationId: query_int_str
+      parameters:
+        - name: query_int
+          in: query
+          required: false
+          allowEmptyValue: false
+          schema:
+            type: integer
+        - name: query_str
+          in: query
+          required: false
+          allowEmptyValue: true
+          schema:
+            type: string           
+      responses:
+        200:
+          description: OK
+        404:
+          description: NotFound
