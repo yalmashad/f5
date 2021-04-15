@@ -4,7 +4,7 @@ info:
   description: 'Primitive data types.'
   version: '2.5.0'
 servers:
-  - url: http://localhost
+  - url: http://echoapp.net
 paths:
   /query:
     get:
