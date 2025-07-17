@@ -4,7 +4,7 @@ info:
   description: 'Primitive Data Types.'
   version: '2.5.0'
 servers:
-  - url: http://echoapp.net
+  - url: http://example.f5demo.io
 paths:
   /query:
     get:
