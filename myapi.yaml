@@ -1,10 +1,10 @@
 openapi: 3.0.1
 info:
   title: 'Primitive data types'
-  description: 'Primitive Data Types.'
+  description: 'Primitive data types.'
   version: '2.5.0'
 servers:
-  - url: http://example.f5demo.io
+  - url: http://localhost
 paths:
   /query:
     get:
@@ -24,7 +24,7 @@ paths:
           required: false
           allowEmptyValue: true
           schema:
-            type: string           
+            type: string
       responses:
         200:
           description: OK
